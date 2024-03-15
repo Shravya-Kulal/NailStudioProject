@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+    <style>
+        *{
+            padding:0px;
+            margin: 0px;
+        }
+        .main{
+            height:880px;
+            width: 1900px;
+            background-color: rgb(13, 14, 13);
+           
+
+        
+        }
+        .img{
+            position: relative;
+            height:880px;
+            width: 1900px;
+            background-image: url(/nail/nail5.jpg);
+            background-size: cover;
+            opacity: 0.4;
+        }
+        /* ul{
+            display: flex;
+            justify-content:end;
+        }
+        li:hover{
+            color: rgb(254, 101, 226);
+            
+        }
+        .fa-star:hover{
+            color: rgb(254, 101, 226);
+        }
+        li{
+            list-style-type: none;
+            margin-left:1px;
+            margin-right: 25px;
+            margin-top: 50px;
+            font-size:30px;
+            font-weight:800;
+            color: rgba(1, 5, 8, 0.904);
+        }
+        .li2{
+            font-size:35px;
+        }
+        .social{
+            margin-top: -40px;
+            font-size:40px;
+            margin-left:20px;
+        }
+        .fa-facebook-f:hover,.fa-twitter:hover,.fa-youtube:hover,.fa-instagram:hover{
+             color: aliceblue;
+        }
+        i{
+            margin-left:15px;
+        }
+        .fa-facebook-f,.fa-twitter{
+            color: rgb(8, 8, 241);
+
+        }
+        .fa-instagram{
+            color:rgb(205, 43, 54);
+        }
+        .fa-youtube{
+            color: red;
+        }
+        .fa-star{
+            color: rgb(235, 231, 34);
+            
+        } */
+        h1{
+            position: absolute;
+            margin-left:670px;
+            margin-top:-820px;
+            font-size:90px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgba(237, 220, 231, 0.858);
+            /* text-decoration:underline rgb(184, 137, 184); */
+        }
+        .second_div{
+            
+            width: 1900px;
+        }
+       
+        .services{
+            display: inline-block;
+            margin-top: 80px;
+            margin-bottom:80px;
+            margin-left:900px;
+            font-size: 55px;
+            font-style: italic;
+        }
+        .blocks{
+            display: flex;
+            height: 100px;
+            width: 100px;
+        }
+        .img1,.img2,.img3,.img4{
+            height: 300px;
+            width: 300px;
+        }
+        .links{
+            position: absolute;
+            margin-top:-860px;
+            font-size:30px;
+            color: white;
+        }
+        a{
+    text-decoration: none;
+    color: rgb(243, 246, 248);
+    margin-left: 100px;
+}
+a:hover{
+    /* text-decoration:underline; */
+    color: rgb(218, 194, 194);
+}
+i{
+    position: absolute;
+    margin-left:10px;
+    margin-top:9px;
+   
+}
+#searchbox{
+   width:250px;
+   height:30px;
+    margin-left:800px;
+    margin-top:-10px;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid black;
+}
+#heart{
+    position: absolute;
+    margin-left:700px;
+    color: rgb(203, 8, 8);
+}
+.social{
+    margin-top:60px;
+    margin-left: 1530px;
+}
+.fa-facebook-f {
+    font-size:40px;
+    margin-left:280px;
+  
+}
+.fa-facebook-f:hover{
+    color: blue;
+}
+.fa-instagram{
+    font-size:40px;
+    margin-left:220px;
+}
+.fa-instagram:hover{
+    color: rgb(188, 75, 94);
+}
+.fa-twitter{
+    font-size:40px;
+    margin-left:160px;
+}
+.fa-twitter:hover{
+    color: blue;
+}
+.fa-youtube{
+    font-size:40px;
+    margin-left: 100px;
+}
+.fa-youtube:hover{
+    color: rgb(197, 8, 8);
+}
+.fa-whatsapp{
+    font-size:40px;
+    margin-left: 40px;
+}
+.fa-whatsapp:hover{
+    color: rgb(51, 143, 51);
+}
+#font{
+    margin-top:-500px;
+    position: absolute;
+    text-align: center;
+    margin-left:500px;
+    font-size:60px;
+    color: rgb(242, 246, 240);
+    text-shadow:2px 2px 2px rgb(93, 99, 88);
+    font-style: italic;
+}
+button{
+    margin-top:250px;
+}
+.box1,.box2,.box3,.box4{
+    height:700px;
+    width:800px;
+    /* border: 1px solid rgb(239, 234, 234); */
+    border-radius:60px;
+    margin-top:0px;
+    margin-left:50px;
+}
+.box3{
+    margin-left:70px;
+}
+.img1{
+    height: 400px;
+    width:400px;
+    border-radius: 50%;
+   
+}
+.img2{
+    height: 400px;
+    width:400px;
+    border-radius:50%;
+   
+}
+.img3{
+    height: 400px;
+    width:400px;
+    border-radius:50%;
+   
+}
+.img4{
+    height: 400px;
+    width:400px;
+    border-radius:50%;
+   
+}
+.img1:hover{
+    transform: scale(1.1,1.1);
+}
+.img2:hover{
+    transform: scale(1.1,1.1);
+}
+.img3:hover{
+    transform: scale(1.1,1.1);
+}
+.img4:hover{
+    transform: scale(1.1,1.1);
+}
+button{
+    font-size:15px;
+    margin-left:50px;
+    margin-top:90px;
+    padding:8px;
+    border-radius:10px;
+    background-color: rgb(243, 243, 205);
+}
+b{
+    font-size:35px;
+    margin-left:50px;
+    padding: 15px;
+    color:rgba(0, 0, 0, 0.856);
+    background-color: rgb(230, 202, 230);
+    border-radius:30px;
+}
+.box1  i{
+    font-size:22px;
+    color: rgb(71, 5, 44);
+    justify-content:center;
+    
+}
+.box2  i{
+    font-size:22px;
+    color: rgb(71, 5, 44);
+    justify-content:center;
+    
+}
+.box3  i{
+    font-size:22px;
+    color: rgb(71, 5, 44);
+    justify-content:center;
+    
+}
+.box4 i{
+    font-size:22px;
+    color: rgb(71, 5, 44);
+    justify-content:center;
+    
+}
+.box5  i{
+    font-size:22px;
+    color: rgb(71, 5, 44);   
+    justify-content:center;
+    
+}
+
+/* Third div */
+.third_div{
+ 
+    margin-top:700px;
+    height:860px;
+     width: 1900px;
+    background-color: rgb(252, 252, 252);
+}
+.gallery{
+    margin-top:50px;
+    display: inline-block;
+   margin-left:900px;
+    font-style: italic;
+    font-size:50px;
+}
+.divs{
+    display: flex;
+    margin-top:70px;
+   
+}
+.div1,.div2,.div3,.div4,.div5,.div6{
+    margin-left:14px;
+    border-radius:50px;
+    height: 300px;
+    width:300px;
+    /* border: 1px solid rgb(184, 164, 164); */
+}
+.pic1,.pic2,.pic3,.pic4,.pic5,.pic6{
+    border-radius:50px;
+    height: 300px;
+    width:300px;
+}
+.pic1:hover,.pic2:hover,.pic3:hover,.pic4:hover,.pic5:hover,.pic6:hover{
+    transform: scale(1.1,1.1);
+    border-radius: 50%;
+
+}
+.fourth_div{
+    /* margin-top:700px; */
+    height:860px;
+     width: 1900px;
+    background-color: rgb(252, 252, 252);
+}
+.book{
+    margin-top:70px;
+    display: inline-block;
+   margin-left:860px;
+    font-style: italic;
+    font-size:50px;
+}
+.form{
+    margin-left:350px;
+    margin-top: 20px;
+    height: 690px;
+    width:1300px;
+    background-color: rgb(6, 6, 6);
+}
+.crop{
+    height: 690px;
+    width:1300px;
+    opacity:0.5;
+}
+#name{
+    position: absolute;
+    margin-top:100px;
+    padding:15px;
+    width:500px;
+    opacity: 0.5;
+    margin-left: -900px;
+    font-size: 35px;
+  
+}
+#date{
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 750px;
+    padding:15px;
+    width:500px;
+    opacity: 0.5;
+    font-size: 35px;
+}
+#btn{
+position: absolute;
+    margin-top: -150px;
+    margin-left: 900px;
+    padding:15px;
+    width:200px;
+    opacity: 0.5;
+    font-size: 35px;
+}
+#btn:hover{
+      background-color: rgb(211, 217, 99);
+}
+.footer{
+    height:80px;
+     width: 1900px;
+    background-color: rgb(113, 103, 103);
+    /* opacity: 0.6; */
+}
+.material-icons,span{
+    color: rgb(1, 2, 3);
+}
+h3{
+    position: absolute;
+    /* display: inline-block; */
+    margin-left:800px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.fa-heart{
+     margin-top: -0.5px;
+     color: red;
+}
+.name{
+    color: aliceblue;
+}
+h4{
+    position: absolute;
+    /* display: inline-block; */
+    margin-left:1200px;
+    margin-top:19px;
+    font-size: 35px; 
+}
+.fa-download{
+    color: #391a21;
+    padding: 5px;
+    border-radius: 50%;
+       background-color: rgb(220, 187, 187);
+
+}
+.div1   .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+.div2   .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+.div3    .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+.div4   .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+.div5  .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+.div6 .fa-download{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 280px;
+    font-size:25px;
+    /* background-color: rgb(220, 187, 187); */
+    padding: 5px;
+    border-radius: 50%;
+}
+       
+    </style>
+</head>
+<body>
+<div class="main">
+        <div class="img"></div>
+            <p id="font"> "Great nails don't happen by chance.<br>
+                They happen by Appointement..."</p>
+        
+    <div class="links">
+                <a class="sevices" href="#">SERVICES</a>
+                <a href="#">GALLERY</a>
+                <a href="#">BOOK NOW</a>
+                <i  id="heart"class="fas fa-heart"></i>
+                <input id="searchbox" type="search" placeholder="  search here.." >
+                <i class="fas fa-search"></i>
+
+
+                
+            <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-whatsapp"></i>
+            </div>
+        
+        
+
+
+    </div>
+    <div class="second_div">
+        <div class="services"> SERVICES </div>
+
+    <div class="blocks">
+        <div class="box1"><img class="img1" src="/nail/nail.11.webp"><br><br><br><b>Nail Extensions</b><br><br><br><br><i>Tired of your chiped, non-growing nails?<br>Come and try our nail extensions,you'll<br>fall in love with your nails  &#9829;</i>  <br><br></div>
+        <div class="box2"><img class="img2" src="/nail/b10.png"><br><br><br><b>Gel Nail Paints</b><br><br><br><br><i>Gel nail paint is healthy for your nails,<br>cleans the dead skin around and<br>moisturises for good growth giving shine to nails. &#9829;</i>   <br></div>
+        <div class="box3"><img class="img3" src="/nail/b1.new.jpg"><br><br><br><b>Acrylic Refill</b><br><br><br><br><i>There are few steps for acrylic refill,these<br>steps fill the space in between the nails<br>and the cuticles,removing the gap or a<br>crack of your nail.&#9829;</i>   <br></div>
+        <div class="box4"><img class="img4" src="/nail/nai.26.jpg"><br><br><br><b>Manicure services</b><br><br><br><br><i>French manicure or normal manicure<br>services for your nails that make it look<br>fresh and hygenic.also, the massage<br> increases the blood circulation and nail growth &#9829;</i>  <br></div>
+    </div>
+       
+       
+
+    </div>
+
+
+    <div class="third_div">
+        <div class="gallery"> GALLERY </div>
+     <div class="divs">
+        <div class="div1"><img class="pic1" src="/nail/green/g6.jpg"><i class="fas fa-download"></i></div>
+        <div class="div2"><img class="pic2" src="/nail/white/w5.jpg"><i class="fas fa-download"></i></div>
+        <div class="div3"><img class="pic3" src="/nail/black nails/black6.jpg"><i class="fas fa-download"></i></div>
+        <div class="div4"><img class="pic4" src="/nail/green/g8.jpg"><i class="fas fa-download"></i></div>
+        <div class="div5"><img class="pic5" src="/nail/orange/o3.jpg"><i class="fas fa-download"></i></div>
+        <div class="div6"><img class="pic6" src="/nail/white/w6.png"><i class="fas fa-download"></i></div>
+    </div>
+    <div class="divs">
+        <div class="div1"><img class="pic1" src="/nail/black nails/black2.jpg"><i class="fas fa-download"></i></div>
+        <div class="div2"><img class="pic2" src="/nail/green/g1.jpg"><i class="fas fa-download"></i></div>
+        <div class="div3"><img class="pic3" src="/nail/orange/o10.jpg"><i class="fas fa-download"></i></div>
+        <div class="div4"><img class="pic4" src="/nail/white/w1.webp"><i class="fas fa-download"></i></div>
+        <div class="div5"><img class="pic5" src="/nail/orange/o6.jpg"><i class="fas fa-download"></i></div>
+        <div class="div6"><img class="pic6" src="/nail/black nails/black3.jpg"><i class="fas fa-download"></i></div>
+    </div>
+    </div>
+    <div class="fourth_div">
+        <div class="book"> BOOK NOW </div>
+        <div class="form"><img class="crop" src="/nail/nailcrop.2.jpg">
+    
+            <input type="text"  id="name" placeholder="Name">
+            
+        
+    </div>
+    <input type="datetime-local" id="date" placeholder="Name">
+    <input type="button" id="btn" value="Book Now">
+    </div>
+    <div class="footer">
+        <i class="material-icons" style="font-size:36px">place <span>PUNE, MAHARASHTRA</span> </i><h3>Created by <span class="name">SHRAVYA </span><i class="fas fa-heart"></i><h4> |  All right Reserved</h4></h3>
+    </div>
+   
+ 
+</div>
+
+</body>
+</html>
